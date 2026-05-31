@@ -8,7 +8,7 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_python</buildtool_depend>
-  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
@@ -18,12 +18,14 @@
   <depend>nav2_msgs</depend>
   <depend>action_msgs</depend>
   <depend>cv_bridge</depend>
-  <depend>python3-opencv</depend>
-  <depend>python3-yaml</depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
   <depend>tf_transformations</depend>
 
   <exec_depend>rosidl_default_runtime</exec_depend>
   <exec_depend>python3-pyqt5</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_plugin</exec_depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 
