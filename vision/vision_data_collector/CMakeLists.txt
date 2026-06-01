@@ -12,9 +12,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES geometry_msgs
 )
 
-# Note: ament_python_install_package conflicts with rosidl_generate_interfaces
-# The Python package is still installed via rosidl's Python generation
-# ament_python_install_package(${PROJECT_NAME})
+# rosidl creates the vision_data_collector Python package; install our source files into it
+install(FILES
+  vision_data_collector/__init__.py
+  DESTINATION local/lib/python3.10/dist-packages/vision_data_collector/
+)
 
 install(PROGRAMS
   vision_data_collector/mission_node.py
