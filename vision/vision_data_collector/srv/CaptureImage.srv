@@ -1,6 +1,0 @@
-# Request
-string save_path
----
-# Response
-bool success
-string message

@@ -1,4 +1,0 @@
-camera_node:
-  ros__parameters:
-    image_topic: /robot4/oakd/rgb/preview/image_raw
-    jpg_quality: 95
