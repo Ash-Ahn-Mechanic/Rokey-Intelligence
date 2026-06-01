@@ -1,0 +1,9 @@
+# Request
+geometry_msgs/Point[] waypoints
+float64 radius
+float64 angle_step_deg
+string save_dir
+---
+# Response
+bool success
+string message
