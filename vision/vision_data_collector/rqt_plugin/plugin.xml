@@ -6,9 +6,12 @@
     <qtgui>
       <group>
         <label>Vision</label>
-        <icon type="theme">camera-photo</icon>
-        <statustip>vision_data_collector waypoint panel</statustip>
+        <icon type="theme">folder</icon>
+        <statustip>Vision plugins</statustip>
       </group>
+      <label>Waypoint Panel</label>
+      <icon type="theme">camera-photo</icon>
+      <statustip>YOLO data collector waypoint panel</statustip>
     </qtgui>
   </class>
 </library>
