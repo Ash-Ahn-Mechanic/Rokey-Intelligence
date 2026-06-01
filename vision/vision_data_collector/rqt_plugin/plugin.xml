@@ -1,5 +1,5 @@
 <library path="rqt_plugin">
-  <class name="vision_data_collector/WaypointPanel"
+  <class name="WaypointPanel"
          type="rqt_plugin.waypoint_panel.WaypointPanel"
          base_class_type="rqt_gui_py::Plugin">
     <description>YOLO data collector waypoint panel</description>
