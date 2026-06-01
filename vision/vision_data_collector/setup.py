@@ -27,5 +27,8 @@ setup(
             'mission_node = vision_data_collector.mission_node:main',
             'camera_node = vision_data_collector.camera_node:main',
         ],
+        'rqt_gui_plugin': [
+            'vision_data_collector = rqt_plugin.waypoint_panel:WaypointPanel',
+        ],
     },
 )

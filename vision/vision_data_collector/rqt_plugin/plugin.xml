@@ -3,5 +3,12 @@
          type="rqt_plugin.waypoint_panel.WaypointPanel"
          base_class_type="rqt_gui_py::Plugin">
     <description>YOLO data collector waypoint panel</description>
+    <qtgui>
+      <group>
+        <label>Vision</label>
+        <icon type="theme">camera-photo</icon>
+        <statustip>vision_data_collector waypoint panel</statustip>
+      </group>
+    </qtgui>
   </class>
 </library>
